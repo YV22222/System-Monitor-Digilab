@@ -1,1 +1,1 @@
-# System-Monitor-Digilab
+# System-Monitor-Digilab & Discord Bot
