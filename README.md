@@ -26,6 +26,6 @@ Dieses Projekt kombiniert einen **System-Monitor für den Raspberry Pi** mit ein
 ## ⚙️ Installation
 
 ```bash
-git clone https://github.com/Jerry123456789ccc/system-monitor-digilab.git
+git clone https://github.com/YV22222/system-monitor-digilab.git
 cd system-monitor-digilab
 npm install
