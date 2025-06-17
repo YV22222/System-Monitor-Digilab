@@ -20,7 +20,7 @@ Dieses Projekt kombiniert einen **System-Monitor für den Raspberry Pi** mit ein
 - Einfache Erweiterbarkeit für weitere Befehle
 
 ## 🚀 Technologien
-- **Node.js**
+- **Node.json**
 - **Python**
 
 ## ⚙️ Installation
