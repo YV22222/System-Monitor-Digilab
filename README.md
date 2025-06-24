@@ -2,7 +2,7 @@
 
 ## 🔧 Projektübersicht
 
-Dieses Projekt kombiniert einen **System-Monitor für den Raspberry Pi** mit einem **Discord Bot**. Der System-Monitor zeigt auf einem Digilab-Touchscreen die CPU-Auslastung, Temperatur, RAM und Netzwerkstatus an. Der Discord Bot ermöglicht die Fernabfrage dieser Systemdaten über Discord-Kommandos.
+Dieses Projekt kombiniert einen **System-Monitor für den Raspberry Pi** mit einem **Dashboard**. Der System-Monitor zeigt auf einem Digilab-Touchscreen die CPU-Auslastung, Temperatur, RAM und Netzwerkstatus an. Der Dashboard ermöglicht die Fernabfrage dieser Systemdaten.
 
 ## 📦 Funktionen
 
@@ -14,7 +14,7 @@ Dieses Projekt kombiniert einen **System-Monitor für den Raspberry Pi** mit ein
 - Optimiert für Touchscreen-Bedienung
 - Läuft direkt auf dem Raspberry Pi (kein Browser, kein HTML)
 
-### Discord Bot
+### Dashboard
 - Slash-Commands zur Systemabfrage
 - Zeigt Live-Systemstatus im Discord-Channel
 - Einfache Erweiterbarkeit für weitere Befehle
