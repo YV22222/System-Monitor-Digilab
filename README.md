@@ -2,7 +2,7 @@
 
 ## 🔧 Projektübersicht
 
-Dieses Projekt kombiniert einen **System-Monitor für den Raspberry Pi** mit einem **Dashboard**. Der System-Monitor zeigt auf einem Digilab-Touchscreen die CPU-Auslastung, Temperatur, RAM und Netzwerkstatus an. Der Dashboard ermöglicht die Fernabfrage dieser Systemdaten.
+Dieses Projekt kombiniert einen **System-Monitor für den Raspberry Pi** mit einem **Dashboard**. Der System-Monitor zeigt auf einem Digilab-Touchscreen die CPU-Auslastung, Temperatur, RAM und Netzwerkstatus an. Der Dashboard zeigt die Systemdaten.
 
 ## 📦 Funktionen
 
@@ -13,11 +13,6 @@ Dieses Projekt kombiniert einen **System-Monitor für den Raspberry Pi** mit ein
   - IP-Adresse & Netzwerkstatus
 - Optimiert für Touchscreen-Bedienung
 - Läuft direkt auf dem Raspberry Pi (kein Browser, kein HTML)
-
-### Dashboard
-- Slash-Commands zur Systemabfrage
-- Zeigt Live-Systemstatus im Discord-Channel
-- Einfache Erweiterbarkeit für weitere Befehle
 
 ## 🚀 Technologien
 - **Node.json**
