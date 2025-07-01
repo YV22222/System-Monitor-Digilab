@@ -44,8 +44,7 @@
         "y": 160,
         "wires": [
             [
-                "debug_cpu",
-                "cpu_ui"
+                "debug_cpu"
             ]
         ]
     },
@@ -104,8 +103,7 @@
         "y": 220,
         "wires": [
             [
-                "debug_ram",
-                "ram_ui"
+                "debug_ram"
             ]
         ]
     },
@@ -161,8 +159,7 @@
         "y": 280,
         "wires": [
             [
-                "debug_ip",
-                "ip_ui"
+                "debug_ip"
             ]
         ]
     },
@@ -202,69 +199,6 @@
         ]
     },
     {
-        "id": "cpu_ui",
-        "type": "ui_text",
-        "z": "flow1",
-        "group": "dashboard_group",
-        "order": 1,
-        "width": 0,
-        "height": 0,
-        "name": "CPU Temp Text",
-        "label": "CPU Temperatur",
-        "format": "{{msg.payload}}",
-        "layout": "row-spread",
-        "className": "",
-        "style": false,
-        "font": "",
-        "fontSize": "",
-        "color": "#000000",
-        "x": 900,
-        "y": 200,
-        "wires": []
-    },
-    {
-        "id": "ram_ui",
-        "type": "ui_text",
-        "z": "flow1",
-        "group": "dashboard_group",
-        "order": 2,
-        "width": 0,
-        "height": 0,
-        "name": "RAM Text",
-        "label": "RAM Verbrauch",
-        "format": "{{msg.payload}}",
-        "layout": "row-spread",
-        "className": "",
-        "style": false,
-        "font": "",
-        "fontSize": "",
-        "color": "#000000",
-        "x": 880,
-        "y": 320,
-        "wires": []
-    },
-    {
-        "id": "ip_ui",
-        "type": "ui_text",
-        "z": "flow1",
-        "group": "dashboard_group",
-        "order": 3,
-        "width": 0,
-        "height": 0,
-        "name": "IP Text",
-        "label": "IP Adresse",
-        "format": "{{msg.payload}}",
-        "layout": "row-spread",
-        "className": "",
-        "style": false,
-        "font": "",
-        "fontSize": "",
-        "color": "#000000",
-        "x": 870,
-        "y": 440,
-        "wires": []
-    },
-    {
         "id": "2c9c65e9fb588bec",
         "type": "rpi-gpio in",
         "z": "flow1",
@@ -283,21 +217,5 @@
                 "net_exec"
             ]
         ]
-    },
-    {
-        "id": "dashboard_group",
-        "type": "ui_group",
-        "name": "System Info",
-        "tab": "dashboard_tab",
-        "order": 1,
-        "disp": true,
-        "width": "6"
-    },
-    {
-        "id": "dashboard_tab",
-        "type": "ui_tab",
-        "name": "Monitor",
-        "icon": "dashboard",
-        "order": 1
     }
 ]
