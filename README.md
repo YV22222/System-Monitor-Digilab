@@ -11,7 +11,6 @@ Dieses Projekt kombiniert einen **System-Monitor für den Raspberry Pi** mit ein
   - CPU-Temperatur & Auslastung
   - RAM-Verbrauch
   - IP-Adresse & Netzwerkstatus
-- Optimiert für Touchscreen-Bedienung
 - Läuft direkt auf dem Raspberry Pi (kein Browser, kein HTML)
 
 ## 🚀 Technologien
