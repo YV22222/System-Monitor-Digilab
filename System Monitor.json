@@ -1,0 +1,24 @@
+[
+    {
+        "id": "net_exec",
+        "type": "exec",
+        "z": "flow1",
+        "command": "ip a",
+        "addpay": "payload",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "IP Adresse",
+        "x": 450,
+        "y": 280,
+        "wires": [
+            [
+                "ip_parser"
+            ],
+            [],
+            []
+        ]
+    }
+]
