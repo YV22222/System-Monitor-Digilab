@@ -2,7 +2,7 @@
 
 ## 🔧 Projektübersicht
 
-Dieses Projekt kombiniert einen **System-Monitor für den Raspberry Pi** mit einem **Dashboard**. Der System-Monitor zeigt auf einem Digilab-Touchscreen die CPU-Auslastung, Temperatur, RAM und Netzwerkstatus an. Der Dashboard zeigt die Systemdaten.
+Dieses Projekt kombiniert einen **System-Monitor für den Raspberry Pi** mit einem **Debug**. Der System-Monitor zeigt auf einem Digilab-Touchscreen die CPU-Auslastung, Temperatur, RAM und Netzwerkstatus an. Der Dashboard zeigt die Systemdaten.
 
 ## 📦 Funktionen
 
@@ -16,11 +16,3 @@ Dieses Projekt kombiniert einen **System-Monitor für den Raspberry Pi** mit ein
 
 ## 🚀 Technologien
 - **Node.json**
-- **Python**
-
-## ⚙️ Installation
-
-```bash
-git clone https://github.com/YV22222/system-monitor-digilab.git
-cd system-monitor-digilab
-npm install
