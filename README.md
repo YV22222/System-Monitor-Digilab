@@ -6,15 +6,11 @@ Das Projekt "System-Monitor-Digilab" ist ein lokal betriebenes Überwachungssyst
 
 ## Hauptfunktionen
 
-Der System-Monitor zeigt auf dem Digilab-Touchscreen verschiedene Systemdaten des Raspberry Pi an. Dazu gehören die CPU-Temperatur, die CPU-Auslastung (gesamt und pro Kern), die aktuelle RAM-Nutzung, die IP-Adresse und der Netzwerkstatus. Zusätzlich werden die Systemlaufzeit (Uptime) und der Hostname angezeigt. Die Benutzeroberfläche ist für Touchbedienung ausgelegt und aktualisiert die angezeigten Werte automatisch im Abstand von wenigen Sekunden.
-
-## Erweiterungsmöglichkeiten
-
-Das System kann durch zusätzliche Hardware ergänzt werden. Möglich sind unter anderem LEDs zur Anzeige bestimmter Zustände (zum Beispiel bei Überhitzung), Taster für Funktionen wie Herunterfahren oder Neustart, sowie externe Displays wie LCDs oder OLEDs. Auch ein akustisches Warnsignal über einen Buzzer kann eingebaut werden.
+Der System-Monitor zeigt auf dem Node-red Debug verschiedene Systemdaten des Raspberry Pi an. Dazu gehören die CPU-Temperatur, die CPU-Auslastung, die aktuelle RAM-Nutzung, die IP-Adresse und der Netzwerkstatus.
 
 ## Verwendete Technologien
 
-Die Anwendung basiert auf Node.js. Für das Auslesen der Systeminformationen wird das npm-Modul "systeminformation" verwendet. Für die Ansteuerung von GPIO-Pins (z. B. für LEDs oder Tasten) können Bibliotheken wie "onoff" oder "rpi-gpio" eingesetzt werden. Optional kommen Python-Skripte zum Einsatz, etwa zur Ansteuerung von LCDs über I2C. Die grafische Oberfläche wird direkt auf dem Digilab-Touchscreen angezeigt.
+Die Anwendung basiert auf Node.js. Für das Auslesen der Systeminformationen wird das npm-Modul "systeminformation" verwendet. Für die Ansteuerung von GPIO-Pins (z. B. für LEDs oder Tasten) können Bibliotheken wie "onoff" oder "rpi-gpio" eingesetzt werden.
 
 ## Voraussetzungen
 
